@@ -43,3 +43,4 @@ hyperas
 Keras
 asposebarcode
 scikit_learn
+tensorflow
