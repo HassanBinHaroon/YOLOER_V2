@@ -19,7 +19,7 @@ from utils.torch_utils import select_device, load_classifier, time_synchronized,
 from keras.models import model_from_json
 from sklearn.preprocessing import StandardScaler
 import csv
-
+import pandas as pd
 
 def detect(save_img=False):
     source, weights, view_img, save_txt, imgsz, trace = opt.source, opt.weights, opt.view_img, opt.save_txt, opt.img_size, not opt.no_trace
