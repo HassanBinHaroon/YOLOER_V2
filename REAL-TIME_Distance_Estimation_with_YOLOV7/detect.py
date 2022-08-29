@@ -22,6 +22,8 @@ import csv
 import pandas as pd
 
 def detect(save_img=False):
+    model_dist   = opt.model_dist
+    weights_dist = opt.weights_dist
     source, weights, view_img, save_txt, imgsz, trace = opt.source, opt.weights, opt.view_img, opt.save_txt, opt.img_size, not opt.no_trace
     save_img = not opt.nosave and not source.endswith('.txt')  # save inference images
     webcam = source.isnumeric() or source.endswith('.txt') or source.lower().startswith(
