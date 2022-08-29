@@ -120,7 +120,8 @@ def detect(save_img=False):
                 for c in det[:, -1].unique():
                     n = (det[:, -1] == c).sum()  # detections per class
                     s += f"{n} {names[int(c)]}{'s' * (n > 1)}, "  # add to string
-
+                df_test = pd.DataFrame(columns=['frame', 'xmin', 'ymin', 'xmax', 'ymax', 'scaled_xmin',
+                    'scaled_ymin', 'scaled_xmax', 'scaled_ymax'])
                 object_counter=0 
                 # Write results
                 for *xyxy, conf, cls in reversed(det):
