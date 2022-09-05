@@ -5,6 +5,6 @@ YOLOER stands for You Only Look Once and Estimate Range while V1 implies the ver
 
 # Demo 
 
-![](https://github.com/HassanBinHaroon/object_detection-PLUS-distance_estimation-v1/blob/main/images/cars1.gif)
+![](https://github.com/HassanBinHaroon/YOLOER_V2/blob/master/demo/class_and_distance.gif)
 
 Note! The project is still in progress.
