@@ -3,9 +3,13 @@ YOLOER stands for You Only Look Once and Estimate Range while V1 implies the ver
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HassanBinHaroon/YOLOER_V2/blob/master/YOLOER_V2.ipynb)
 
-# Demo 
+# Demo1 
 
 ![](https://github.com/HassanBinHaroon/YOLOER_V2/blob/master/demo/class_and_distance.gif)
+
+# Demo2
+
+![](https://github.com/HassanBinHaroon/YOLOER_V2/blob/master/demo/car.jpg)    
 
 ## Table of Contents
 
