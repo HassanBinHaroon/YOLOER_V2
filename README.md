@@ -28,17 +28,21 @@ Moreover, we prefer working in Conda environments and it is recommended to insta
 
 #### Step 1
 
-     git clone https://github.com/HassanBinHaroon/YOLOER_V2.git
+     conda create --name YOLOER_V2 python=3.7 -y && conda activate YOLOER_V2
 
 #### Step 2
 
+     git clone https://github.com/HassanBinHaroon/YOLOER_V2.git
+
+#### Step 3
+
      cd YOLOER_V2/REAL-TIME_Distance_Estimation_with_YOLOV7
      
-#### Step 3     
+#### Step 4     
 
      pip install -r requirements.txt
      
-#### Step 4     
+#### Step 5     
 
      python detect.py --save-txt --weights yolov7.pt --conf 0.4 --source 0 --model_dist model@1535470106.json --weights_dist model@1535470106.h5 
 
