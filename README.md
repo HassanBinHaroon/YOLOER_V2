@@ -64,6 +64,6 @@ https://colab.research.google.com/github/HassanBinHaroon/YOLOER_V1/blob/master/Y
 
 ### Results Visualization
 
-![](https://github.com/HassanBinHaroon/YOLOER_V1/blob/master/images/results_vis.png)
+![](https://github.com/HassanBinHaroon/YOLOER_V2/blob/master/demo/YOLOER_V2_1.png)
 
 Note! The project is still in progress.
